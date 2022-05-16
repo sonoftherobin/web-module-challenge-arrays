@@ -142,7 +142,8 @@ function getFlavorByIndex(array,index){
   return array.at(index)
 }
 
-/*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+/*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
+ Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 As corporate wants to add more and more flavors to their lineup, they've realized that they need to remove flavors based on flavor name, as opposed to just arbitrarily removing the first or last flavor. Your task is to get an index by flavor name, and remove that single flavor from the array.  
 
 Use the removeFlavorByName function below to do the following:
@@ -152,7 +153,7 @@ Use the removeFlavorByName function below to do the following:
   4. Return the resulting array that now contains one less flavor
 
   For example: running removeFlavorByName(originalFlavors, "Rocky Road") would return an array with the a length of 30 because Rocky Road would have been removed. 
-
+hello
   HINT: You can use .splice() for this
 */
 
